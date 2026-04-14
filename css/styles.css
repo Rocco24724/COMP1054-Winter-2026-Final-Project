@@ -39,7 +39,7 @@ h1, h2, h3, h4 {
     letter-spacing: 0.01em;
 }
 
-/* Heading Sizes for each heading level */
+/* Heading sizes for each heading level */
 h1 {
     font-size: var(--size-h1);
 }
@@ -52,3 +52,26 @@ h3 {
 h4 {
     font-size: var(--size-h4);
 }
+
+/* Body text */
+p {
+    font-family: var(--font-body);
+    font-size: var(--size-body);
+    line-height: 1.8;
+    margin-bottom: var(--space-sm);
+    color: var(--colour-black);
+}
+
+/* Links */
+a {
+    color: var(--colour-navy-light);
+    text-decoration: underline;
+    transition: 200ms ease-in-out;
+}
+
+/* Other link behaviours */
+a:hover, a:focus {
+    color: var(--colour-gold);
+    text-decoration: none;
+}
+
