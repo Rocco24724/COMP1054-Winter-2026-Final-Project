@@ -59,7 +59,7 @@ p {
     font-size: var(--size-body);
     line-height: 1.8;
     margin-bottom: var(--space-sm);
-    color: var(--colour-black);
+    color: var(--colour-navy);
 }
 
 /* Links */
@@ -100,5 +100,5 @@ blockquote {
 /* Strong/Bold */
 strong {
     font-weight: bold;
-    color: var(--colour-navy)
+    color: var(--colour-navy);
 }
