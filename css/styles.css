@@ -28,3 +28,27 @@
     --font-body: Georgia, 'Times New Roman', serif;
     --font-heading: Arial, Helvetica, sans-serif;
 }
+
+/* Headings */
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.75em;
+    color: var(--colour-navy);
+    letter-spacing: 0.01em;
+}
+
+/* Heading Sizes for each heading level */
+h1 {
+    font-size: var(--size-h1);
+}
+h2 {
+    font-size: var(--size-h2);
+}
+h3 {
+    font-size: var(--size-h3);
+}
+h4 {
+    font-size: var(--size-h4);
+}
