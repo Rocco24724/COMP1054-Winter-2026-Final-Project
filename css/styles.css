@@ -102,3 +102,44 @@ strong {
     font-weight: bold;
     color: var(--colour-navy);
 }
+
+/* Header */
+header {
+    background-color: var(--colour-navy);
+    color: var(--colour-white);
+    padding: var(--space-lg) var(--space-md);
+    text-align: center;
+}
+
+/* Header h1 */
+header h1 {
+    color: var(--colour-gold);
+    font-size: var(--size-h1);
+    letter-spacing: 0.05em;
+    margin-bottom: var(--space-xs);
+}
+
+/* Header h2 */
+header h2 {
+    color: var(--colour-white);
+    font-size: var(--size-h1);
+    font-weight: normal;
+    letter-spacing: 0.03em;
+    margin-bottom: var(--space-sm);
+}
+
+/* Header paragraph */
+header p {
+    color: var(--colour-light-grey);
+    font-size: 1rem;
+    margin-bottom: var(--space-md);
+}
+
+/* Header Links */
+header a {
+    color: var(--colour-gold-light);
+}
+/* Header other link behaviours */
+header a:hover, header a:focus {
+    color: var(--colour-white);
+}
