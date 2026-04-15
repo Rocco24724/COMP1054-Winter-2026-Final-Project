@@ -290,7 +290,7 @@ article li {
 
 /* Download links in files */
 #files a {
-    color: var(--colour-gold)
+    color: var(--colour-gold);
 }
 
 /*Files container */
@@ -310,4 +310,45 @@ article li {
   color: var(--colour-gold);
   font-weight: bold;
   padding: var(--space-xs) var(--space-sm);
+}
+
+/* Any element with a class starting with "link-" */
+[class^="link-"] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6em 1.25em;
+    border-radius: 6px;
+    font-family: var(--font-heading);
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+
+/* Buttons */
+.link-downloadcss, .link-downloadhtml, .link-codepen, .link-guidelines {
+    background-color: var(--colour-navy);
+}
+
+/* Buttons other behaviours */
+.link-downloadcss:hover, .link-downloadcss:focus, .link-downloadhtml:hover, .link-downloadhtml:focus, .link-codepen:hover, .link-codepen:focus, .link-guidelines:hover, .link-guidelines:focus {
+    background-color: var(--colour-grey);
+}
+
+/* Guidelines button */
+.link-guidelines {
+    color: var(--colour-gold);
+}
+
+/* Twitter contact, RSS, All Styles, and Subcribe buttons */
+.link-twittercontact, .link-rss, .link-support, .link-allstyles {
+    color: var(--colour-gold);
+    text-decoration: underline;
+}
+
+/* Twitter contact, RSS, All Styles, and Subcribe buttons other behaviours */
+.link-twittercontact:hover, .link-twittercontact:focus, .link-rss:hover, .link-rss:focus, .link-support:hover, .link-support:focus {
+    color: var(--colour-gold-light);
 }
