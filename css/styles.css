@@ -209,3 +209,22 @@ nav ul li a {
 nav ul li a:hover, nav ul li a:focus {
     color: var(--colour-gold);
 }
+
+/* Main */
+main {
+    padding: var(--space-lg) var(--space-md);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Main when selected */
+main:focus {
+    outline: none;
+}
+
+/* Container */
+.container {
+    max-width: 75ch;
+    margin: 0 auto;
+    padding: 0 var(--space-sm);
+}
