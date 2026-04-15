@@ -228,3 +228,86 @@ main:focus {
     margin: 0 auto;
     padding: 0 var(--space-sm);
 }
+
+/* Articles */
+article {
+    margin-bottom: var(--space-lg);
+    border-bottom: 1px solid var(--colour-light-grey);
+    padding-bottom: var(--space-lg);
+}
+
+/* Last child of articles */
+article:last-child {
+    border-bottom: none;
+}
+
+/* Sections inside articles */
+article section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-md) 0;
+}
+
+/* Article h2's */
+article h2 {
+    color: var(--colour-navy);
+    border-bottom: 3px solid var(--colour-gold);
+    padding-bottom: var(--space-xs);
+    margin-bottom: var(--space-md);
+}
+
+/* Article h3's */
+article h3 {
+    color: var(--colour-navy-light);
+    margin-top: var(--space-md);
+}
+
+/* Article lists */
+article ul, article ol {
+    padding-left: var(--space-md);
+    margin-bottom: var(--space-md);
+}
+
+article li {
+    margin-bottom: var(--space-xs);
+    color: var(--colour-navy);
+}
+
+/* Files */
+#files {
+    background-color: var(--colour-navy-light);
+    padding: var(--space-md);
+    border-radius: 6px;
+    margin-top: var(--space-md);
+}
+
+/* h3 in files */
+#files h3 {
+    color: var(--colour-gold);
+    margin-bottom: var(--space-md);
+}
+
+/* Download links in files */
+#files a {
+    color: var(--colour-gold)
+}
+
+/*Files container */
+#files .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    align-items: center;
+}
+
+/* Skip to main content button */
+.skip-link {
+  position: absolute;
+  top: auto;
+  overflow: hidden;
+  background-color: var(--colour-navy);
+  color: var(--colour-gold);
+  font-weight: bold;
+  padding: var(--space-xs) var(--space-sm);
+}
