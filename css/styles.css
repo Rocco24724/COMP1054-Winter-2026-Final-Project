@@ -122,7 +122,7 @@ header h1 {
 /* Header h2 */
 header h2 {
     color: var(--colour-white);
-    font-size: var(--size-h1);
+    font-size: var(--size-h2);
     font-weight: normal;
     letter-spacing: 0.03em;
     margin-bottom: var(--space-sm);
@@ -178,7 +178,7 @@ header .link-github svg {
 /* Makes it sticky so it always stays on the page */
 nav {
     background-color: var(--colour-navy-light);
-    padding: var(--space-md);
+    padding: 0 var(--space-md);
     position: sticky;
     top: 0;
     z-index: 100;
