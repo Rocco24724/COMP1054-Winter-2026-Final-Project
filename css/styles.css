@@ -173,3 +173,39 @@ header .link-github svg {
     height: 1em;
     fill: var(--colour-navy);
 }
+
+/* Navigation */
+/* Makes it sticky so it always stays on the page */
+nav {
+    background-color: var(--colour-navy-light);
+    padding: var(--space-md);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Navigation Lists */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Lists/Links */
+nav ul li a {
+    display: block;
+    padding: var(--space-sm);
+    color: var(--colour-light-grey);
+    text-decoration: none;
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+    transition: 200ms ease-in-out;
+}
+
+/* Navigation Lists/Links other behaviours */
+nav ul li a:hover, nav ul li a:focus {
+    color: var(--colour-gold);
+}
