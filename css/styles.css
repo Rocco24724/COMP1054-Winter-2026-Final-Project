@@ -139,7 +139,37 @@ header p {
 header a {
     color: var(--colour-gold-light);
 }
+
 /* Header other link behaviours */
 header a:hover, header a:focus {
     color: var(--colour-white);
+}
+
+/* Github Button Styles */
+
+header .link-github {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    background-color: var(--colour-gold);
+    color: var(--colour-navy);
+    text-decoration: none;
+    padding: 0.6em 1.25em;
+    border-radius: 6px;
+    font-family: var(--font-heading);
+    font-weight: bold;
+    transition: 200ms ease-in-out;
+}
+
+/* Github button other behaviours */
+header .link-github:hover, header .link-github:focus {
+    background-color: var(--colour-gold-light);
+    color: var(--colour-navy);
+}
+
+/* Styles for the star icon in the Github button */
+header .link-github svg {
+    width: 1em;
+    height: 1em;
+    fill: var(--colour-navy);
 }
