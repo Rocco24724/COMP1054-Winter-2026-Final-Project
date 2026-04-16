@@ -497,3 +497,60 @@ article li {
     color: var(--colour-light-grey);
     font-size: 0.95rem;
 }
+
+
+/* Page footer */
+.page-footer {
+    background-color: var(--colour-navy);
+    color: var(--colour-white);
+    padding: var(--space-lg) var(--space-md);
+    text-align: center;
+}
+
+/* Footer container */
+.page-footer .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Footer paragraphs */
+.page-footer p {
+    color: var(--colour-light-grey);
+    font-size: 0.95rem;
+    margin-bottom: var(--space-sm);
+}
+
+/* Footer links */
+.page-footer a {
+    color: var(--colour-gold);
+}
+
+/* Footer links other behaviours */
+.page-footer a:hover, .page-footer a:focus {
+    color: var(--colour-gold-light);
+}
+
+/* Footer nav list */
+.page-footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 var(--space-md) 0;
+    gap: var(--space-sm);
+}
+
+/* Footer nav list items */
+.page-footer ul li {
+    margin-bottom: 0;
+}
+
+/* Footer Github svg icon */
+.page-footer .link-github svg {
+    width: 1em;
+    height: 1em;
+    fill: var(--colour-gold);
+    vertical-align: middle;
+    margin-right: var(--space-xs);
+}
