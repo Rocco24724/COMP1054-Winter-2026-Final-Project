@@ -352,3 +352,148 @@ article li {
 .link-twittercontact:hover, .link-twittercontact:focus, .link-rss:hover, .link-rss:focus, .link-support:hover, .link-support:focus {
     color: var(--colour-gold-light);
 }
+
+/* Profile sidebar */
+.profile {
+    background-color: var(--colour-white);
+    border-top: 4px solid var(--colour-gold);
+    padding: var(--space-md);
+    margin: var(--space-lg) auto;
+    max-width: 900px;
+}
+
+/* Profile title */
+.profile h4 {
+    color: var(--colour-gold);
+    font-family: var(--font-heading);
+    font-size: var(--size-h4);
+    text-align: center;
+    margin-bottom: var(--space-md);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* Profile info list */
+.profile ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 var(--space-md) 0;
+}
+
+/* Profile list items */
+.profile ul li {
+    display: flex;
+    padding: var(--space-xs) var(--space-sm);
+    gap: var(--space-xs);
+    color: var(--colour-navy);
+    font-family: var(--font-body);
+}
+
+/* Profile labels */
+.profile ul li span:first-child {
+    font-weight: bold;
+    color: var(--colour-navy-light);
+}
+
+/* Profile links */
+.profile a {
+    color: var(--colour-navy-light);
+}
+
+/* Profile links other behaviours */
+.profile a:hover, .profile a:focus {
+    color: var(--colour-gold);
+}
+
+/* Profile container */
+.profile .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Profile view stylesheet button */
+.profile .container > a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--colour-navy);
+    color: var(--colour-white);
+    padding: 0.6em 1.25em;
+    border-radius: 6px;
+    font-family: var(--font-heading);
+    font-weight: bold;
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+    margin: 0 auto;
+}
+
+/* Profile view stylesheet button other behaviours */
+.profile .container > a:hover, .profile .container > a:focus {
+    background-color: var(--colour-gold);
+    color: var(--colour-navy);
+}
+
+/* Featured styles section */
+#styles {
+    background-color: var(--colour-navy);
+    padding: var(--space-lg) var(--space-md);
+    text-align: center;
+}
+
+/* Featured styles heading */
+#styles h2 {
+    color: var(--colour-gold);
+    border-bottom: 3px solid var(--colour-gold);
+    padding-bottom: var(--space-xs);
+    margin-bottom: var(--space-md);
+}
+
+/* Featured styles list */
+#styles .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-md);
+    list-style: none;
+    padding: 0;
+    margin: 0 0 var(--space-md) 0;
+}
+
+/* Each featured style card */
+#styles .features li {
+    background-color: var(--colour-navy-light);
+    border: 1px solid var(--colour-gold);
+    border-radius: 6px;
+    padding: var(--space-md);
+}
+
+/* Featured style card inner span */
+#styles .features li > span {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+/* Featured style name link */
+#styles .features li a {
+    color: var(--colour-gold);
+    font-family: var(--font-heading);
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+/* Featured style name link other behaviours */
+#styles .features li a:hover, #styles .features li a:focus {
+    color: var(--colour-gold-light);
+    text-decoration: underline;
+}
+
+/* Featured style author name */
+#styles .features li > span > span:last-child {
+    color: var(--colour-light-grey);
+    font-size: 0.95rem;
+}
